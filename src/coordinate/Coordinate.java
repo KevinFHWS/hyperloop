@@ -42,7 +42,6 @@ public class Coordinate {
 //		this.district = district;
 //	}
 
-
 	public double getX() {
 		return x;
 	}
