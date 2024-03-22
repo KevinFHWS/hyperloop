@@ -30,17 +30,17 @@ public class Coordinate {
 		return stationName;
 	}
 
-	public void setStationName(String stationName) {
-		this.stationName = stationName;
-	}
+//	public void setStationName(String stationName) {
+//		this.stationName = stationName;
+//	}
 
 	public String /* ## StartMD district */ getDistrict() /* ## End */ {
 		return district;
 	}
 
-	public void setDistrict(String district) {
-		this.district = district;
-	}
+//	public void setDistrict(String district) {
+//		this.district = district;
+//	}
 
 	public double getX() {
 		return x;
