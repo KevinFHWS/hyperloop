@@ -29,7 +29,7 @@ public class SvgVisualizerWithPrecision {
 		String svgFile = "Svg_Visualization_With_Precision_" + precision + ".html";
 		BufferedWriter bw = new BufferedWriter(new FileWriter(svgFile));
 		
-		precision = (int) Math.pow(10, precision);
+		/* ## StartMD precision */precision = (int) Math.pow(10, precision);/* ## End */
 		
 		double lon = CoordinateReader.findLon(coordinates);
 		double lat = CoordinateReader.findLat(coordinates);

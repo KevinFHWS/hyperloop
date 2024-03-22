@@ -24,7 +24,7 @@ public class TrackFinder {
         }
         return optimalTrack;
     }
-	
+	// ## Begin main
 	//testing
 	//TODO Comment this, when project is final.
 	public static void main(String[] args) throws IOException {
@@ -41,4 +41,5 @@ public class TrackFinder {
         System.out.println("Knoten auf der Geraden:");
         System.out.println(optimalTrack.getPoints());
 	}
+    // ## End
 }

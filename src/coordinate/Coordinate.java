@@ -6,15 +6,17 @@ public class Coordinate {
 	private String district;
 	private double x;
 	private double y;
-	
+
+	// ## Begin Coordinate
 	public Coordinate(long id, String stationName, String district, double x, double y) {
 		super();
 		this.id = id;
-		this.stationName = stationName;
+		/* ## Start stationName */ this.stationName = stationName; /* ## End */
 		this.district = district;
 		this.x = x;
 		this.y = y;
 	}
+	// ## End
 
 	public long getId() {
 		return id;
@@ -32,7 +34,7 @@ public class Coordinate {
 		this.stationName = stationName;
 	}
 
-	public String getDistrict() {
+	public String /* ## StartMD district */ getDistrict() /* ## End */ {
 		return district;
 	}
 

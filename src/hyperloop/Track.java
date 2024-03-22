@@ -16,7 +16,7 @@ public class Track {
 
 
     public boolean addPoint(Coordinate p, double tolerance){
-        boolean isAdded = false;
+        /* ## Start boolean */boolean isAdded = false;/* ## End */
         if(!this.points.contains(p) && isOnTrack(p, tolerance)) isAdded = this.points.add(p);
         return isAdded;
     }

@@ -29,7 +29,7 @@ public class SvgVisualizer {
 		double lon = CoordinateReader.findLon(coordinates);
 		double lat = CoordinateReader.findLat(coordinates);
 
-		String svgFile = "Svg_Visualization.html";
+		/* ## Start svgFile */String svgFile = "Svg_Visualization.html";/* ## End */
 		BufferedWriter bw = new BufferedWriter(new FileWriter(svgFile));
 
 		// Create HTML with stylesheet svg.css --> hover-effect
@@ -110,7 +110,7 @@ public class SvgVisualizer {
 				bw.write("</g>\n");
 			}
 		}
-
+		// ## Begin hyperloopPath
 		// Hyperloop-Path
 		double startX = start.scaleXToCoordinateSystem(lon, 10000);
 		double startY = start.scaleYToCoordinateSystem(lat, 10000);
@@ -125,6 +125,7 @@ public class SvgVisualizer {
 		bw.close();
 
 		System.out.println("HTML-SVG has been written to \"" + svgFile + "\"!");
+		// ## End
 	}
 
 	// rounding doubles for display of ledger lines Source:
