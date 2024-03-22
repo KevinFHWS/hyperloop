@@ -15,7 +15,7 @@ public class MainClass {
 		System.out.println();
 		
 		//Calculate OptimalTrack
-    	double tolerance = 0.0055;
+    	double tolerance = 0.005;
 		Track optimalTrack = TrackFinder.findOptimalTrack(coordinates, tolerance);
         System.out.println("Geradengleichung:");
         System.out.println(optimalTrack.getTrack());
