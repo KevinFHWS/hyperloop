@@ -11,7 +11,7 @@ public class Coordinate {
 	public Coordinate(long id, String stationName, String district, double x, double y) {
 		super();
 		this.id = id;
-		/* ## Start stationName */ this.stationName = stationName; /* ## End */
+		/* ## Start stationName */ this.stationName = stationName;/* ## End */
 		this.district = district;
 		this.x = x;
 		this.y = y;
@@ -30,17 +30,17 @@ public class Coordinate {
 		return stationName;
 	}
 
-	public void setStationName(String stationName) {
-		this.stationName = stationName;
-	}
+//	public void setStationName(String stationName) {
+//		this.stationName = stationName;
+//	}
 
 	public String /* ## StartMD district */ getDistrict() /* ## End */ {
 		return district;
 	}
 
-	public void setDistrict(String district) {
-		this.district = district;
-	}
+//	public void setDistrict(String district) {
+//		this.district = district;
+//	}
 
 	public double getX() {
 		return x;
