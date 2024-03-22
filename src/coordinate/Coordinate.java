@@ -11,7 +11,7 @@ public class Coordinate {
 	public Coordinate(long id, String stationName, String district, double x, double y) {
 		super();
 		this.id = id;
-		/* ## Start stationName */ this.stationName = stationName; /* ## End */
+		/* ## Start stationName */ this.stationName = stationName;/* ## End */
 		this.district = district;
 		this.x = x;
 		this.y = y;
